@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'e*22)=b25y-@&!fc^^6egxl+j4=j)36v%*#f7=05%^88qdo4ty'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','zeeshanportfolio.herokuapp.com']
 
@@ -136,7 +136,7 @@ STATIC_URL = '/static/'
 #     os.path.join(BASE_DIR, 'portfolio/static/'),
 # )
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STATIC_ROOT  =   os.path.join(PROJECT_ROOT, 'portfolio/stati')
+STATIC_ROOT  =   os.path.join(PROJECT_ROOT, 'portfolio/static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
